@@ -1,0 +1,233 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
+body {
+  overflow-x: hidden;
+  line-height: 1.8;
+  color: #b8a97a;
+  font-size: 10 px;
+  font-family: "lato", 'Courier New', Courier, monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgb(92, 26, 40);
+}
+
+.title-small {
+  font-size: 80px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+a {
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+
+img {
+  width: 100%;
+}
+
+small {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.Logo {
+  width: 4.7rem;
+  height: auto;
+}
+
+.logo-text {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #11245a !important;
+}
+
+.navbar .nav-link {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.navbar .nav-link.active {
+  color: #ff0066;
+}
+
+#Home {
+  background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)),
+    url(https://i.pinimg.com/564x/7e/8b/79/7e8b79e67811244d3a20834df519353a.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+#Home h1 {
+  font-weight: 00;
+}
+
+#Home p {
+  max-width: 550px;
+  margin: 18px auto;
+}
+
+.section-intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-intro .hline {
+  width: 280px;
+  height: 2px;
+  background-color: rgb(0, 0, 0, 0.1);
+  margin: 16px auto 0 auto;
+}
+
+.icon-box {
+  width: 60px;
+  height: 60px;
+  background-color: #0a058f77;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  flex: none;
+}
+
+.feature .icon-box {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  font-size: 24px;
+}
+
+#Favorite Songs{
+  background-color: green
+}
+
+.ts-img, .at-img, .nk-img {
+  height: auto;
+  width: 35vw;
+  align-items: center;
+  
+  justify-content: center;
+  align-content: center;
+}
+
+.taylor-swift {
+  background-color: #141925;
+}
+
+.taylor-swift .hline {
+  width: 70px;
+  height: 2px;
+  margin: 16px auto;
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.taylor.swift .taylor-swift img,
+.taylor-swift .taylor-swift img .social-icons {
+  transition: all 0.4s ease;
+}
+
+.arthur.nery .hline {
+  width: 70px;
+  height: 2px;
+  margin: 16px auto;
+  background-color: rgba(255, 255, 255, 0.44);
+}
+
+.arthur.nery .arthur-img {
+  position: relative;
+  overflow: hidden;
+  
+}
+.arthur.nery .arthur-img .social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  color: white;
+  border-radius: 100px;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-decoration: none;
+  
+}
+
+.noah.kahan .noah-img .social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+  color: white;
+  border-radius: 100px;
+  margin-left: 4px;
+  margin-right: 4px;
+  text-decoration: none;
+
+}
+
+
+.contact {
+  background-color: burlywood;
+}
+
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+  color: #11245a;
+}
+
+footer .social-icons a {
+  font-size: 24px;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+  color: #11245a;
+}
+
+footer .footer-links a {
+  display: block;
+  font-weight: 400;
+}
